@@ -1,0 +1,20 @@
+# Render Blueprint for Vietnam Stock Financial Reports API
+services:
+  - type: web
+    name: vn-finance-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: vn-finance-db
+          property: connectionString
+      - key: CORS_ORIGINS
+        value: https://vn-finance.vercel.app,http://localhost:5173
+
+databases:
+  - name: vn-finance-db
+    plan: free
+    databaseName: vn_finance
+    user: vn_finance_user

@@ -1,0 +1,106 @@
+{
+  "common": {
+    "title": "Báo Cáo Tài Chính Chứng Khoán Việt Nam",
+    "subtitle": "Tra cứu và xem báo cáo tài chính của các công ty niêm yết",
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "noData": "Không có dữ liệu. Chọn mã chứng khoán để tải dữ liệu.",
+    "dataSource": "Nguồn dữ liệu: vnstock - Dữ liệu thị trường chứng khoán Việt Nam",
+    "fetchError": "Không thể tải dữ liệu. Vui lòng kiểm tra mã chứng khoán và thử lại.",
+    "refreshError": "Không thể làm mới dữ liệu.",
+    "timeoutError": "Yêu cầu quá thời gian chờ. Vui lòng thử lại."
+  },
+  "search": {
+    "label": "Tìm mã chứng khoán",
+    "placeholder": "Nhập mã (VD: VNM, FPT, VIC)",
+    "selected": "Đã chọn"
+  },
+  "period": {
+    "type": "Loại kỳ",
+    "annual": "Năm",
+    "quarterly": "Quý",
+    "year": "Năm",
+    "allYears": "Tất cả"
+  },
+  "actions": {
+    "refresh": "Làm mới",
+    "fetching": "Đang tải..."
+  },
+  "tabs": {
+    "balanceSheet": "Bảng Cân Đối Kế Toán",
+    "incomeStatement": "Báo Cáo Kết Quả Kinh Doanh",
+    "cashFlow": "Báo Cáo Lưu Chuyển Tiền Tệ"
+  },
+  "emptyState": {
+    "title": "Tìm Mã Chứng Khoán",
+    "description": "Nhập mã chứng khoán để xem báo cáo tài chính"
+  },
+  "status": {
+    "fetchingData": "Đang lấy dữ liệu từ vnstock..."
+  },
+  "table": {
+    "item": "Chỉ tiêu"
+  },
+  "units": {
+    "billion": "tỷ",
+    "million": "triệu"
+  },
+  "balanceSheet": {
+    "totalAssets": "Tổng tài sản",
+    "currentAssets": "Tài sản ngắn hạn",
+    "cashAndEquivalents": "Tiền và tương đương tiền",
+    "shortTermInvestments": "Đầu tư ngắn hạn",
+    "accountsReceivable": "Phải thu ngắn hạn",
+    "inventory": "Hàng tồn kho",
+    "nonCurrentAssets": "Tài sản dài hạn",
+    "fixedAssets": "Tài sản cố định",
+    "longTermInvestments": "Đầu tư dài hạn",
+    "totalLiabilities": "Tổng nợ phải trả",
+    "currentLiabilities": "Nợ ngắn hạn",
+    "shortTermDebt": "Vay ngắn hạn",
+    "accountsPayable": "Phải trả người bán",
+    "nonCurrentLiabilities": "Nợ dài hạn",
+    "longTermDebt": "Vay dài hạn",
+    "totalEquity": "Vốn chủ sở hữu",
+    "shareCapital": "Vốn góp",
+    "retainedEarnings": "Lợi nhuận chưa phân phối",
+    "minorityInterest": "Lợi ích cổ đông thiểu số"
+  },
+  "incomeStatement": {
+    "revenue": "Doanh thu",
+    "costOfRevenue": "Giá vốn hàng bán",
+    "grossProfit": "Lợi nhuận gộp",
+    "operatingExpenses": "Chi phí hoạt động",
+    "sellingExpenses": "Chi phí bán hàng",
+    "administrativeExpenses": "Chi phí quản lý",
+    "operatingIncome": "Lợi nhuận từ HĐKD",
+    "interestIncome": "Thu nhập tài chính",
+    "interestExpense": "Chi phí lãi vay",
+    "otherIncome": "Thu nhập khác",
+    "otherExpenses": "Chi phí khác",
+    "profitBeforeTax": "Lợi nhuận trước thuế",
+    "incomeTax": "Chi phí thuế TNDN",
+    "netIncome": "Lợi nhuận sau thuế",
+    "netIncomeAttributable": "LN sau thuế của cổ đông CTM",
+    "eps": "EPS (VND)"
+  },
+  "cashFlow": {
+    "operatingCashFlow": "Lưu chuyển tiền từ HĐKD",
+    "netIncomeCf": "Lợi nhuận trước thuế",
+    "depreciation": "Khấu hao",
+    "changesInWorkingCapital": "Thay đổi vốn lưu động",
+    "investingCashFlow": "Lưu chuyển tiền từ HĐĐT",
+    "capitalExpenditure": "Mua sắm TSCĐ",
+    "investmentPurchases": "Mua đầu tư",
+    "investmentSales": "Bán đầu tư",
+    "financingCashFlow": "Lưu chuyển tiền từ HĐTC",
+    "debtIssued": "Vay mới",
+    "debtRepaid": "Trả nợ vay",
+    "dividendsPaid": "Cổ tức đã trả",
+    "stockIssued": "Phát hành cổ phiếu",
+    "stockRepurchased": "Mua lại cổ phiếu",
+    "netChangeInCash": "Thay đổi tiền thuần",
+    "beginningCash": "Tiền đầu kỳ",
+    "endingCash": "Tiền cuối kỳ"
+  }
+}

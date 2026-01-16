@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+/* Table styles */
+.financial-table {
+  @apply w-full text-sm border-collapse;
+}
+
+.financial-table th {
+  @apply px-4 py-3 bg-gray-100 font-semibold text-gray-700 border-b border-gray-200;
+}
+
+.financial-table th:first-child {
+  @apply text-left;
+}
+
+.financial-table th:not(:first-child) {
+  @apply text-right;
+}
+
+.financial-table td {
+  @apply px-4 py-3 border-b border-gray-200;
+}
+
+.financial-table td:not(:first-child) {
+  @apply text-right font-mono text-xs;
+}
+
+.financial-table tr:hover td {
+  @apply bg-gray-50;
+}
+
+/* Number formatting */
+.number-positive {
+  @apply text-green-600;
+}
+
+.number-negative {
+  @apply text-red-600;
+}

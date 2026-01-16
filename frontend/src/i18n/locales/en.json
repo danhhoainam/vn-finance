@@ -1,0 +1,106 @@
+{
+  "common": {
+    "title": "Vietnam Stock Financial Reports",
+    "subtitle": "Search and view financial statements for Vietnamese listed companies",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "noData": "No data available. Select a stock and fetch its financial data.",
+    "dataSource": "Data source: vnstock - Vietnam Stock Market Data",
+    "fetchError": "Failed to fetch data. Please check the stock symbol and try again.",
+    "refreshError": "Failed to refresh data.",
+    "timeoutError": "Request timed out. Please try again."
+  },
+  "search": {
+    "label": "Search Stock Symbol",
+    "placeholder": "Enter symbol (e.g., VNM, FPT, VIC)",
+    "selected": "Selected"
+  },
+  "period": {
+    "type": "Period Type",
+    "annual": "Annual",
+    "quarterly": "Quarterly",
+    "year": "Year",
+    "allYears": "All Years"
+  },
+  "actions": {
+    "refresh": "Refresh Data",
+    "fetching": "Fetching..."
+  },
+  "tabs": {
+    "balanceSheet": "Balance Sheet",
+    "incomeStatement": "Income Statement",
+    "cashFlow": "Cash Flow"
+  },
+  "emptyState": {
+    "title": "Search for a Stock",
+    "description": "Enter a stock symbol above to view its financial statements"
+  },
+  "status": {
+    "fetchingData": "Fetching data from vnstock..."
+  },
+  "table": {
+    "item": "Item"
+  },
+  "units": {
+    "billion": "B",
+    "million": "M"
+  },
+  "balanceSheet": {
+    "totalAssets": "Total Assets",
+    "currentAssets": "Current Assets",
+    "cashAndEquivalents": "Cash & Equivalents",
+    "shortTermInvestments": "Short-term Investments",
+    "accountsReceivable": "Accounts Receivable",
+    "inventory": "Inventory",
+    "nonCurrentAssets": "Non-current Assets",
+    "fixedAssets": "Fixed Assets",
+    "longTermInvestments": "Long-term Investments",
+    "totalLiabilities": "Total Liabilities",
+    "currentLiabilities": "Current Liabilities",
+    "shortTermDebt": "Short-term Debt",
+    "accountsPayable": "Accounts Payable",
+    "nonCurrentLiabilities": "Non-current Liabilities",
+    "longTermDebt": "Long-term Debt",
+    "totalEquity": "Total Equity",
+    "shareCapital": "Share Capital",
+    "retainedEarnings": "Retained Earnings",
+    "minorityInterest": "Minority Interest"
+  },
+  "incomeStatement": {
+    "revenue": "Revenue",
+    "costOfRevenue": "Cost of Revenue",
+    "grossProfit": "Gross Profit",
+    "operatingExpenses": "Operating Expenses",
+    "sellingExpenses": "Selling Expenses",
+    "administrativeExpenses": "Administrative Expenses",
+    "operatingIncome": "Operating Income",
+    "interestIncome": "Interest Income",
+    "interestExpense": "Interest Expense",
+    "otherIncome": "Other Income",
+    "otherExpenses": "Other Expenses",
+    "profitBeforeTax": "Profit Before Tax",
+    "incomeTax": "Income Tax",
+    "netIncome": "Net Income",
+    "netIncomeAttributable": "Net Income (Attributable)",
+    "eps": "EPS"
+  },
+  "cashFlow": {
+    "operatingCashFlow": "Operating Cash Flow",
+    "netIncomeCf": "Net Income",
+    "depreciation": "Depreciation",
+    "changesInWorkingCapital": "Changes in Working Capital",
+    "investingCashFlow": "Investing Cash Flow",
+    "capitalExpenditure": "Capital Expenditure",
+    "investmentPurchases": "Investment Purchases",
+    "investmentSales": "Investment Sales",
+    "financingCashFlow": "Financing Cash Flow",
+    "debtIssued": "Debt Issued",
+    "debtRepaid": "Debt Repaid",
+    "dividendsPaid": "Dividends Paid",
+    "stockIssued": "Stock Issued",
+    "stockRepurchased": "Stock Repurchased",
+    "netChangeInCash": "Net Change in Cash",
+    "beginningCash": "Beginning Cash",
+    "endingCash": "Ending Cash"
+  }
+}

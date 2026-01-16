@@ -1,0 +1,36 @@
+# FastAPI and server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+
+# Database
+sqlalchemy>=2.0.25
+psycopg2-binary>=2.9.9
+alembic>=1.13.1
+
+# Pydantic
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Vietnam stock data
+vnstock>=3.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pandas>=2.0.0
+
+# Scheduler
+apscheduler>=3.10.0
+
+# Web scraping
+httpx>=0.25.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# PDF parsing
+pdfplumber>=0.10.0
+
+# OCR for image-based PDFs
+pdf2image>=1.16.0
+pytesseract>=0.3.10
+pillow>=10.0.0
