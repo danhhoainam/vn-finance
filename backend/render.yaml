@@ -11,7 +11,7 @@ services:
           name: vn-finance-db
           property: connectionString
       - key: CORS_ORIGINS
-        value: https://vn-finance.vercel.app,http://localhost:5173
+        value: https://vn-finance.vercel.app,https://vn-finance-git-main-nam-nguyens-projects-1b0cbcc3.vercel.app,http://localhost:5173
 
 databases:
   - name: vn-finance-db

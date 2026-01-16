@@ -5,7 +5,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://vn-finance-api.onrender.com/api/:path*"
+      "destination": "https://vn-finance.onrender.com/api/:path*"
     }
   ]
 }
